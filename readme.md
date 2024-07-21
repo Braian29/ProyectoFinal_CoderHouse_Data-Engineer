@@ -40,7 +40,7 @@ Este proyecto implementa un pipeline ETL (Extract, Transform, Load) utilizando A
 project/
 │
 ├── dags/
-│   └── dual_api_etl_dag.py
+│   └── ETL.py
 │
 ├── raw_data/
 │
@@ -53,7 +53,7 @@ project/
 
 ## Uso
 1. Iniciar el scheduler de Airflow
-2. El DAG `Dual_API_ETL` se ejecutará diariamente de forma automática
+2. El DAG `ETL` se ejecutará diariamente de forma automática
 3. Monitorear la ejecución a través de la interfaz web de Airflow
 
 ## Flujo de trabajo
